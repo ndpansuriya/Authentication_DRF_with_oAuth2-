@@ -1,4 +1,4 @@
-# Authentication on dajngo-rest-framework using Django OAuth Toolkit
+# Authorization Server to issue access-tokens
 Make your own Authorization Server to issue access tokens to client applications for a certain API.
 
 1) Create a virtualenv and install following packages using pip.
