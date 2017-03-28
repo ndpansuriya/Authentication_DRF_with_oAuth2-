@@ -45,3 +45,18 @@ To obtain a valid access_token first we must register an application.
 6) Retrieve users
 		
 		curl -H "Authorization: Bearer <your_access_token>" http://localhost:8000/users/
+
+		you will get Users records in response something like:
+	
+		[
+		    {
+			"id": 1,
+			"username": "admin",
+			"password": "pbkdf2_sha256$20000$7u1RPFGSiZOf$eaOEcZ5NmXb5A70+YAF4dkqlk3dg6wRZCqednAIzGVQ="
+		    },
+		    {
+			"id": 2,
+			"username": "nilesh",
+			"password": "pbkdf2_sha256$20000$DU3jKgC9KMY0$KnA0TkjU5ngz/e/vr8fslk5kJJWPc/TyXnt8ubSv7Zg="
+		    }
+		]
